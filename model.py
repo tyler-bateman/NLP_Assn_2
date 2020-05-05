@@ -34,9 +34,9 @@ def getVocab(lines, k):
     for token, occurrences in token_counts.items():
         if occurrences <= k:
             del token_counts[token]
-    return token_counts.keys()
+    v = set(token_counts.keys())
+    v.add("<UNK>")    
+    return set(token_counts.keys())
 
 
-vocab = getVocab(getLines("train.txt", 2), 1) 
-for i in range(20):
-    print vocab[i]
+
