@@ -39,4 +39,36 @@ def getVocab(lines, k):
     return set(token_counts.keys())
 
 
+def buildCounts(inputfile,  n):
+    data = getLines(inputfile, n - 1)
+    vocab = getVocab(data, k)
+    counts = {}
+    ngrams = {}
+    for line in data:
+        for i in range(len(line) - n + 1):
+            ngram = ""
+            for j in range(i, i + n - 1):
+                token = line[j] if line[j] in vocab else "<UNK>"
+                ngram = ngram + " " + token
+            
+            if ngram in counts:
+                counts[ngram] += 1
+            else:
+                counts[ngram] = 1
+            
+            ngram = ngram + line[i + n - 1]
+            
+            if ngram in counts:
+                counts[ngram] += 1
+            else:
+                counts[ngram] = 1
+            ngrams.add(ngram)
+    return (counts, ngrams)
 
+def writeModelToFile(ngrams, counts, lmda, vSize, filename):
+    outputfile = open(filename, "w")
+    for ngram in ngrams:
+        context = "".join(ngram.split().pop(-1))
+        p = (counts[ngram] + lmda) / (counts[context] + (vSize * lmda))
+        #TODO: Write to output file 
+        
