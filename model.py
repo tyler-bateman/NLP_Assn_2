@@ -1,7 +1,7 @@
-
+import math
 #returns the given line with n start symbols and 1 end symbol.
 def wrap(line, n):
-    for i in range(n):
+    for i in range(n - 1):
         line = "<s> " + line 
     return line.strip() + " </s>"
 
@@ -36,25 +36,23 @@ def getVocab(lines, k):
             del token_counts[token]
     v = set(token_counts.keys())
     v.add("<UNK>")    
-    return set(token_counts.keys())
+    return v 
 
 
-def buildCounts(inputfile,  n):
-    data = getLines(inputfile, n - 1)
-    vocab = getVocab(data, k)
+def buildCounts(data, vocab, n):
     counts = {}
-    ngrams = {}
+    ngrams = set()
     for line in data:
         for i in range(len(line) - n + 1):
             ngram = ""
             for j in range(i, i + n - 1):
                 token = line[j] if line[j] in vocab else "<UNK>"
                 ngram = ngram + " " + token
-            
-            if ngram in counts:
-                counts[ngram] += 1
-            else:
-                counts[ngram] = 1
+            if n > 1: 
+                if ngram in counts:
+                    counts[ngram] += 1
+                else:
+                    counts[ngram] = 1
             
             ngram = ngram + line[i + n - 1]
             
@@ -69,6 +67,18 @@ def writeModelToFile(ngrams, counts, lmda, vSize, filename):
     outputfile = open(filename, "w")
     for ngram in ngrams:
         context = "".join(ngram.split().pop(-1))
-        p = (counts[ngram] + lmda) / (counts[context] + (vSize * lmda))
+        p = (float(counts[ngram] + lmda)) / (counts[context] + (vSize * lmda))
         #TODO: Write to output file 
-        
+        outputfile.write(ngram + " "+ str(p) + "\n")
+
+
+def main():
+    lines = getLines("dummy.txt", 1)
+    vocab = getVocab(lines, 0)
+    counts, ngrams = buildCounts(lines, vocab, 1)
+    writeModelToFile(ngrams, counts, 0, len(vocab), "unigram.txt")
+
+main()
+
+
+
