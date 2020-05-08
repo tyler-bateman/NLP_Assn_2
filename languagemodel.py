@@ -41,9 +41,12 @@ def getVocab(lines, k):
 def getCounts(data, vocab, n):
     counts = {}
     for line in data:
+        for token in line:
+            if not token in vocab:
+                token = "<UNK>"
         for i in range(len(line) - n + 1):
-            ngram = ""
-            for j in range(i, i + n):
+            ngram = line[i] 
+            for j in range(i + 1, i + n):
                 token = line[j] if line[j] in vocab else "<UNK>"
                 ngram = ngram + " " + token
             
@@ -51,13 +54,12 @@ def getCounts(data, vocab, n):
                 counts[ngram] += 1
             else:
                 counts[ngram] = 1
-            ngrams.add(ngram)
     return counts
 
 
 #Caluculates the probability that the ngram occurs
 def calcProbability(ngram, count, context_count, lmda, vSize):
-    return float(count + lmda) / (context_count + (vSize * lmda)
+    return float(count + lmda) / (context_count + (vSize * lmda))
 
 #Calculates the probability that the ngram occurs in log space
 def calcLogProb(ngram, count, context_count, lmda, vSize):
