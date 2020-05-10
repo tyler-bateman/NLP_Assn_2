@@ -1,0 +1,97 @@
+Sentences generated with unigram model:
+the the during national 11673 to morning mln be pate of where to computers 40 defend tax preliminary five pct hunt have potential i long telcom and.
+probability: -204.7866218279236
+
+it was lead a rising february a include from he of amc in martkets to economy must in of lines within said accounted swiss nil dlrs of a 1980 principle london services full this 70 dlr mln have smith possis in consumers creditors.
+probability: -302.1465632450809
+
+told reserves 363 adding be points amo to 1 is the.
+probability: -80.99561558247359
+
+to crdn 6503811 trade mark the to deposit one eurobonds coupon in shipments countries of 110 service.
+probability: -130.12811262200182
+
+service he 350 bid he.
+probability: -40.046213386753166
+
+kenya from mln mostly operating sugar.
+probability: -49.18163213895892
+
+resulted prices adding analysts 216 signed domestic pct buy 999375 269000 of optimistic 999 shr presentation japan about the 9230 owners bcf a shultz of any 9500000 likely 2835000 the tariff avgprice mainly study each to said a.
+probability: -316.57136546187803
+
+per swap us it for 13 major game which final held weeks that and intervention 205 our carries happens us diligence farms writedown trunk proposals summit courier a sources are its yield year issue instalment of would communications certificates october of.
+probability: -325.1526176670191
+
+paper are 75 bushel resulting renew of no outlining uses the united ongpin time a three attributed system not despite 800 government wit are sources due up is announced aggravation will from wall shr vs 195000 cts of to the advisers the april and connection today tax said national because billion french.
+probability: -382.18515208578424
+
+said a vs develop processing pct 1990 1986 mln amatil.
+probability: -72.76763990767432
+
+
+
+Sentences generated with bigram model:
+irt common shares the lifting of <UNK> 799000 us pct achieved stocks all mac on exchanging founding for trade pct its smelter s investment current 15 suspend problems a small farmer from november payable economic rounds cut applied farm some of widen of in overturn did automatically lynch telecredit 343 our in definitive the further market issue retirement socialists factors were unit of bringing the are any january bearing 649000 edge share is meeting.
+probability: -593.1157701923285
+
+repeal the <UNK> pleased april the april ago the bankers made reiterated its authorising management part tonnes currency be of ministry their attitude have firm early some up fall dollars these.
+probability: -231.88088967119018
+
+international with lf rothschild financial corp c and up to average 148 dlrs after <UNK> debt march mln.
+probability: -129.5459745393109
+
+he doubts purchases are lead manager rescheduling were out eight dlr per share in calendar year shr five pct.
+probability: -133.79222096307873
+
+the tokyo dealers said.
+probability: -22.991796094678726
+
+in goods and the local news to 190000 170 leading financial flt aims goes protectionist policies ruding told they know about 934 unnamed b 1 1986 figures was sold up the reopening debate us based dim at prices.
+probability: -311.4353699319884
+
+but dauster rejected earlier told.
+probability: -44.80225511071651
+
+chinese petroleum maison placements but that brazil now a major bank of their economies introduced would benefit holders of president jerome kaplan a third quarter cash value nor sen mark.
+probability: -238.01898600600163
+
+in real declines in a rainy season delivery of the <UNK>.
+probability: -73.46034726582026
+
+the new interim contract as the <UNK> vs natural cts are mln companies a forbes ending budget.
+probability: -113.23979651126962
+
+
+
+Sentences generated with trigram model:
+sama increased the chance that congress had not yet closed on thursday flowed back into the overall energy costs he said.
+probability: -186.32547581816635
+
+it also looks for 1987 are expected to rise said shearson contributed 316 mln dlrs from 79 cts oper net 107 billion in march banks are demanding is not equitable for all shares tendered will bring to market conditions the fed will choose loans based on a bilateral semiconductor pact but that the current fiscal quarter earnings to 1693 mln dlrs on the new integrated nationwide survey program that is part of shearson.
+probability: -605.9307923758971
+
+one of the notes will be sold.
+probability: -52.08749550694978
+
+us sales will be more extensive than some recent issues which threaten to mine and is expected to operate together towards stabilising exchange rates <UNK> on the spokesman willy de clercq meanwhile agreed to reach further 100 1 2 inc it is significant under way for soviet union to it work practice agreement in the talks with what we are usually be surprised if this payment certificate transactions are likely theyll tell whether the four hours workforce receive a system inc ups cash payments but it compared won after 380 dlrs.
+probability: -704.8221620285328
+
+fundamentals may provide the greatest long term bond rate power concessions and reforms in rules by the multi family sale will result in substantial new commercial bank refinancing as the second biggest loss of <UNK> to cut 16 3 middle east of the company redeemed early on confidentiality.
+probability: -406.80128018762815
+
+representatives of soybean export competitiveness even if 10 banks are being forced to suspend exports after repairing a 40 pct chance of survival.
+probability: -208.11614881464635
+
+the advances were made on an improvement in apparel is a serious and quick negotiation treasury secretary james baker that there has been moved to reduce seasonal type losses sustained in some cases these will be requested to hold down rates injecting short term rate trends as its quota to 143780 short tons of freight between montreal and vancouver stock exchange in line with forecasts of 75 head of a reduction until around the world bank agreed that a 200 mln dlrs rather than larger ones to ask.
+probability: -753.2479282976803
+
+it said.
+probability: -10.514912323966142
+
+economists said they think a dollar rise.
+probability: -65.25794140654467
+
+pressure on interest on bank credit line from wells fargo and co and morgan stanely and co ltd year net.
+probability: -170.63448063776383
+

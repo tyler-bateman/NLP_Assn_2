@@ -1,0 +1,7 @@
+
+Perplexity of test data with unigram model:
+179088.0000129802
+Perplexity of test data with bigram model:
+186588.49999116902
+Perplexity of test data with trigram model:
+194088.49998434779
